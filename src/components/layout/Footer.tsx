@@ -13,6 +13,8 @@ export function Footer() {
   const pathname = usePathname();
   const { phoneNumber, rawPhoneNumber, settings } = useLocation();
 
+  if (pathname?.startsWith('/studio')) return null;
+
   const primaryServices = CORE_SERVICES.filter(s => 
     ['water-damage', 'fire-damage', 'mold-remediation', 'storm-services', 'construction', 'cleaning-services'].includes(s.slug)
   );

@@ -10,7 +10,7 @@ export function StickyEmergencyBar() {
   const pathname = usePathname();
   const { phoneNumber, rawPhoneNumber, activeLocation } = useLocation();
 
-  if (pathname === '/') return null;
+  if (pathname === '/' || pathname?.startsWith('/studio')) return null;
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-[#0B192C] border-t border-slate-700 px-3 py-2 shadow-2xl">

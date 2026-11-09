@@ -1,47 +1,121 @@
 import { CORE_SERVICES } from '../data/services';
 import { TEXAS_LOCATIONS } from '../data/locations';
 import { DEFAULT_SITE_SETTINGS } from '../data/settings';
-import { ServiceLine, LocationHub, SiteSettings, ServiceTradeSlug } from '../types';
+import { ServiceLine, LocationHub, SiteSettings } from '../types';
 import { createDynamicHub } from '../location/detector';
+import { sanityFetch } from '../sanity/client';
+import { 
+  servicesQuery, 
+  serviceBySlugQuery, 
+  locationsQuery, 
+  locationBySlugQuery, 
+  siteSettingsQuery 
+} from '../sanity/queries';
+import { isSanityConfigured } from '../sanity/config';
 
 /**
  * Headless CMS Abstraction Layer
  * 
- * In production with Sanity or Strapi connected, these functions
- * perform GROQ or REST queries against the Headless CMS API.
- * Currently, they resolve from our typed seed repositories.
+ * Fully connected to Sanity CMS via GROQ queries with ISR tag caching.
+ * Gracefully falls back to typed seed data if Sanity is unconfigured
+ * or temporarily unreachable.
  */
 
 export async function getAllServices(): Promise<ServiceLine[]> {
+  if (isSanityConfigured) {
+    const liveServices = await sanityFetch<ServiceLine[]>(servicesQuery, {}, ['service']);
+    if (liveServices && liveServices.length > 0) {
+      return liveServices;
+    }
+  }
   return CORE_SERVICES;
 }
 
+const SERVICE_SLUG_ALIASES: Record<string, string> = {
+  'water-damage-restoration': 'residential-water-damage',
+  'water-damage': 'residential-water-damage',
+  'fire-damage-restoration': 'fire-damage-repair',
+  'fire-damage': 'fire-damage-repair',
+  'mold-remediation': 'mold-removal',
+  'mold': 'mold-removal',
+  'plumbing': 'plumbing-repairs',
+  'hvac': 'ac-repair',
+  'air-conditioning': 'ac-repair',
+  'reconstruction': 'damage-reconstruction',
+  'board-up': 'residential-board-up',
+};
+
 export async function getServiceBySlug(slug: string): Promise<ServiceLine | null> {
-  const service = CORE_SERVICES.find((s) => s.slug === slug);
+  const resolvedSlug = SERVICE_SLUG_ALIASES[slug] || slug;
+
+  if (isSanityConfigured) {
+    // If Sanity is active, query Sanity first
+    const liveService = await sanityFetch<ServiceLine>(serviceBySlugQuery, { slug: resolvedSlug }, [`service:${resolvedSlug}`]);
+    if (liveService) {
+      return liveService;
+    }
+
+    // Check if Sanity dataset has records. If it does, and this service isn't there, it was intentionally deleted/doesn't exist
+    const allLive = await sanityFetch<ServiceLine[]>(servicesQuery, {}, ['service']);
+    if (allLive && allLive.length > 0) {
+      return null;
+    }
+  }
+
+  // Fallback to static backup only if Sanity is completely unconfigured/empty
+  const service = CORE_SERVICES.find((s) => s.slug === resolvedSlug || s.slug === slug);
   return service || null;
 }
 
 export async function getAllLocations(): Promise<LocationHub[]> {
+  if (isSanityConfigured) {
+    const liveLocations = await sanityFetch<LocationHub[]>(locationsQuery, {}, ['location']);
+    if (liveLocations && liveLocations.length > 0) {
+      return liveLocations;
+    }
+  }
   return TEXAS_LOCATIONS;
 }
 
 export async function getLocationBySlug(slug: string): Promise<LocationHub | null> {
-  const location = TEXAS_LOCATIONS.find((l) => l.slug === slug);
+  const normalizedSlug = slug.endsWith('-tx') ? slug : `${slug}-tx`;
+
+  if (isSanityConfigured) {
+    const liveLocation = await sanityFetch<LocationHub>(locationBySlugQuery, { slug: normalizedSlug }, [`location:${normalizedSlug}`]);
+    if (liveLocation) {
+      return liveLocation;
+    }
+    if (normalizedSlug !== slug) {
+      const liveOriginal = await sanityFetch<LocationHub>(locationBySlugQuery, { slug }, [`location:${slug}`]);
+      if (liveOriginal) return liveOriginal;
+    }
+
+    // If Sanity has locations, don't resurrect a deleted location from static fallback
+    const allLiveLocations = await sanityFetch<LocationHub[]>(locationsQuery, {}, ['location']);
+    if (allLiveLocations && allLiveLocations.length > 0) {
+      return null;
+    }
+  }
+
+  const location = TEXAS_LOCATIONS.find((l) => l.slug === normalizedSlug || l.slug === slug);
   return location || null;
 }
 
 export async function getMainHubLocation(): Promise<LocationHub> {
-  const mainHub = TEXAS_LOCATIONS.find((l) => l.isMainHub);
-  return mainHub || TEXAS_LOCATIONS[0];
+  const allLocations = await getAllLocations();
+  const mainHub = allLocations.find((l) => l.isMainHub);
+  return mainHub || allLocations[0];
 }
 
 export async function findLocationByZip(zip: string): Promise<LocationHub | null> {
   const cleanZip = zip.trim().slice(0, 5);
   if (!cleanZip) return null;
 
+  const allLocations = await getAllLocations();
+
   // 1. Direct match with static covered zips or primary zip
-  const directMatch = TEXAS_LOCATIONS.find(
-    (l) => l.zip === cleanZip || l.coveredZips.includes(cleanZip)
+  const directMatch = allLocations.find(
+    (l) => l.zip === cleanZip || (l.coveredZips || []).includes(cleanZip)
   );
   if (directMatch) return directMatch;
 
@@ -63,7 +137,7 @@ export async function findLocationByZip(zip: string): Promise<LocationHub | null
         const lat = parseFloat(place.latitude) || 29.7604;
         const lng = parseFloat(place.longitude) || -95.3698;
 
-        const staticByCity = TEXAS_LOCATIONS.find(
+        const staticByCity = allLocations.find(
           (l) => l.city.toLowerCase() === placeName.toLowerCase()
         );
         if (staticByCity) {
@@ -93,5 +167,11 @@ export async function findLocationByZip(zip: string): Promise<LocationHub | null
 }
 
 export async function getSiteSettings(): Promise<SiteSettings> {
+  if (isSanityConfigured) {
+    const liveSettings = await sanityFetch<SiteSettings>(siteSettingsQuery, {}, ['siteSettings']);
+    if (liveSettings && liveSettings.companyName) {
+      return liveSettings;
+    }
+  }
   return DEFAULT_SITE_SETTINGS;
 }

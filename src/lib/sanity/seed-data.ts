@@ -1,0 +1,3999 @@
+export const SEED_DOCUMENTS = [
+  {
+    "_id": "service-water-quality-improvements",
+    "_type": "service",
+    "title": "Water Quality Improvements in Houston, TX",
+    "shortTitle": "Water Quality Improvements",
+    "slug": {
+      "_type": "slug",
+      "current": "water-quality-improvements"
+    },
+    "iconName": "Droplets",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Water Quality Improvements Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Water Quality Improvements for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-water-quality-improvements-1",
+        "title": "Emergency Water Quality Improvements",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-quality-improvements-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-quality-improvements-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Water Quality Improvements?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Water Quality Improvements?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Water Quality Improvements Houston TX | Service Squad",
+      "description": "Need Water Quality Improvements in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Water Quality Improvements Houston",
+        "Water Quality Improvements near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-clogged-drain-rooter-service",
+    "_type": "service",
+    "title": "Clogged Drain / Rooter Service in Houston, TX",
+    "shortTitle": "Clogged Drain / Rooter Service",
+    "slug": {
+      "_type": "slug",
+      "current": "clogged-drain-rooter-service"
+    },
+    "iconName": "Pipette",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Clogged Drain / Rooter Service Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Clogged Drain / Rooter Service for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-clogged-drain-rooter-service-1",
+        "title": "Emergency Clogged Drain / Rooter Service",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-clogged-drain-rooter-service-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-clogged-drain-rooter-service-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Clogged Drain / Rooter Service?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Clogged Drain / Rooter Service?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Clogged Drain / Rooter Service Houston TX | Service Squad",
+      "description": "Need Clogged Drain / Rooter Service in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Clogged Drain / Rooter Service Houston",
+        "Clogged Drain / Rooter Service near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-sewer-repair",
+    "_type": "service",
+    "title": "Sewer Repair in Houston, TX",
+    "shortTitle": "Sewer Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "sewer-repair"
+    },
+    "iconName": "Wrench",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Sewer Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Sewer Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-sewer-repair-1",
+        "title": "Emergency Sewer Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-sewer-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-sewer-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Sewer Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Sewer Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Sewer Repair Houston TX | Service Squad",
+      "description": "Need Sewer Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Sewer Repair Houston",
+        "Sewer Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-sump-pumps",
+    "_type": "service",
+    "title": "Sump Pumps in Houston, TX",
+    "shortTitle": "Sump Pumps",
+    "slug": {
+      "_type": "slug",
+      "current": "sump-pumps"
+    },
+    "iconName": "ArrowDownCircle",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Sump Pumps Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Sump Pumps for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-sump-pumps-1",
+        "title": "Emergency Sump Pumps",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-sump-pumps-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-sump-pumps-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Sump Pumps?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Sump Pumps?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Sump Pumps Houston TX | Service Squad",
+      "description": "Need Sump Pumps in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Sump Pumps Houston",
+        "Sump Pumps near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-whole-house-repiping",
+    "_type": "service",
+    "title": "Whole House Repiping in Houston, TX",
+    "shortTitle": "Whole House Repiping",
+    "slug": {
+      "_type": "slug",
+      "current": "whole-house-repiping"
+    },
+    "iconName": "GitCommit",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Whole House Repiping Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Whole House Repiping for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-whole-house-repiping-1",
+        "title": "Emergency Whole House Repiping",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-whole-house-repiping-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-whole-house-repiping-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Whole House Repiping?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Whole House Repiping?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Whole House Repiping Houston TX | Service Squad",
+      "description": "Need Whole House Repiping in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Whole House Repiping Houston",
+        "Whole House Repiping near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-garbage-disposal-repair",
+    "_type": "service",
+    "title": "Garbage Disposal Repair in Houston, TX",
+    "shortTitle": "Garbage Disposal Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "garbage-disposal-repair"
+    },
+    "iconName": "Trash2",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Garbage Disposal Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Garbage Disposal Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-garbage-disposal-repair-1",
+        "title": "Emergency Garbage Disposal Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-garbage-disposal-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-garbage-disposal-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Garbage Disposal Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Garbage Disposal Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Garbage Disposal Repair Houston TX | Service Squad",
+      "description": "Need Garbage Disposal Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Garbage Disposal Repair Houston",
+        "Garbage Disposal Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-drain-cleaning",
+    "_type": "service",
+    "title": "Drain Cleaning in Houston, TX",
+    "shortTitle": "Drain Cleaning",
+    "slug": {
+      "_type": "slug",
+      "current": "drain-cleaning"
+    },
+    "iconName": "RotateCw",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Drain Cleaning Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Drain Cleaning for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-drain-cleaning-1",
+        "title": "Emergency Drain Cleaning",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-drain-cleaning-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-drain-cleaning-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Drain Cleaning?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Drain Cleaning?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Drain Cleaning Houston TX | Service Squad",
+      "description": "Need Drain Cleaning in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Drain Cleaning Houston",
+        "Drain Cleaning near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-plumbing-installations",
+    "_type": "service",
+    "title": "Plumbing Installations in Houston, TX",
+    "shortTitle": "Plumbing Installations",
+    "slug": {
+      "_type": "slug",
+      "current": "plumbing-installations"
+    },
+    "iconName": "PlusCircle",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Plumbing Installations Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Plumbing Installations for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-plumbing-installations-1",
+        "title": "Emergency Plumbing Installations",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-installations-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-installations-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Plumbing Installations?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Plumbing Installations?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Plumbing Installations Houston TX | Service Squad",
+      "description": "Need Plumbing Installations in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Plumbing Installations Houston",
+        "Plumbing Installations near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-commercial-plumbing",
+    "_type": "service",
+    "title": "Commercial Plumbing in Houston, TX",
+    "shortTitle": "Commercial Plumbing",
+    "slug": {
+      "_type": "slug",
+      "current": "commercial-plumbing"
+    },
+    "iconName": "Building2",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Commercial Plumbing Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Commercial Plumbing for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-commercial-plumbing-1",
+        "title": "Emergency Commercial Plumbing",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-plumbing-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-plumbing-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Commercial Plumbing?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Commercial Plumbing?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Commercial Plumbing Houston TX | Service Squad",
+      "description": "Need Commercial Plumbing in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Commercial Plumbing Houston",
+        "Commercial Plumbing near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-clogged-toilet-repairs",
+    "_type": "service",
+    "title": "Clogged Toilet Repairs in Houston, TX",
+    "shortTitle": "Clogged Toilet Repairs",
+    "slug": {
+      "_type": "slug",
+      "current": "clogged-toilet-repairs"
+    },
+    "iconName": "Tool",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Clogged Toilet Repairs Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Clogged Toilet Repairs for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-clogged-toilet-repairs-1",
+        "title": "Emergency Clogged Toilet Repairs",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-clogged-toilet-repairs-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-clogged-toilet-repairs-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Clogged Toilet Repairs?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Clogged Toilet Repairs?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Clogged Toilet Repairs Houston TX | Service Squad",
+      "description": "Need Clogged Toilet Repairs in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Clogged Toilet Repairs Houston",
+        "Clogged Toilet Repairs near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-plumbing-leak-detection",
+    "_type": "service",
+    "title": "Plumbing Leak Detection in Houston, TX",
+    "shortTitle": "Plumbing Leak Detection",
+    "slug": {
+      "_type": "slug",
+      "current": "plumbing-leak-detection"
+    },
+    "iconName": "Search",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Plumbing Leak Detection Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Plumbing Leak Detection for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-plumbing-leak-detection-1",
+        "title": "Emergency Plumbing Leak Detection",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-leak-detection-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-leak-detection-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Plumbing Leak Detection?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Plumbing Leak Detection?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Plumbing Leak Detection Houston TX | Service Squad",
+      "description": "Need Plumbing Leak Detection in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Plumbing Leak Detection Houston",
+        "Plumbing Leak Detection near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-busted-pipe-repair",
+    "_type": "service",
+    "title": "Busted Pipe Repair in Houston, TX",
+    "shortTitle": "Busted Pipe Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "busted-pipe-repair"
+    },
+    "iconName": "AlertTriangle",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Busted Pipe Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Busted Pipe Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-busted-pipe-repair-1",
+        "title": "Emergency Busted Pipe Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-busted-pipe-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-busted-pipe-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Busted Pipe Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Busted Pipe Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Busted Pipe Repair Houston TX | Service Squad",
+      "description": "Need Busted Pipe Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Busted Pipe Repair Houston",
+        "Busted Pipe Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-hydro-jetting",
+    "_type": "service",
+    "title": "Hydro Jetting in Houston, TX",
+    "shortTitle": "Hydro Jetting",
+    "slug": {
+      "_type": "slug",
+      "current": "hydro-jetting"
+    },
+    "iconName": "Zap",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Hydro Jetting Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Hydro Jetting for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-hydro-jetting-1",
+        "title": "Emergency Hydro Jetting",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-hydro-jetting-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-hydro-jetting-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Hydro Jetting?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Hydro Jetting?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Hydro Jetting Houston TX | Service Squad",
+      "description": "Need Hydro Jetting in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Hydro Jetting Houston",
+        "Hydro Jetting near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-toilet-parts-installation",
+    "_type": "service",
+    "title": "Toilet Parts Installation in Houston, TX",
+    "shortTitle": "Toilet Parts Installation",
+    "slug": {
+      "_type": "slug",
+      "current": "toilet-parts-installation"
+    },
+    "iconName": "Settings",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Toilet Parts Installation Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Toilet Parts Installation for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-toilet-parts-installation-1",
+        "title": "Emergency Toilet Parts Installation",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-toilet-parts-installation-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-toilet-parts-installation-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Toilet Parts Installation?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Toilet Parts Installation?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Toilet Parts Installation Houston TX | Service Squad",
+      "description": "Need Toilet Parts Installation in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Toilet Parts Installation Houston",
+        "Toilet Parts Installation near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-leaky-faucets-repair",
+    "_type": "service",
+    "title": "Leaky Faucets Repair in Houston, TX",
+    "shortTitle": "Leaky Faucets Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "leaky-faucets-repair"
+    },
+    "iconName": "Droplet",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Leaky Faucets Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Leaky Faucets Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-leaky-faucets-repair-1",
+        "title": "Emergency Leaky Faucets Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-leaky-faucets-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-leaky-faucets-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Leaky Faucets Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Leaky Faucets Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Leaky Faucets Repair Houston TX | Service Squad",
+      "description": "Need Leaky Faucets Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Leaky Faucets Repair Houston",
+        "Leaky Faucets Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-shower-valve-replacement",
+    "_type": "service",
+    "title": "Shower Valve Replacement in Houston, TX",
+    "shortTitle": "Shower Valve Replacement",
+    "slug": {
+      "_type": "slug",
+      "current": "shower-valve-replacement"
+    },
+    "iconName": "Sliders",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Shower Valve Replacement Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Shower Valve Replacement for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-shower-valve-replacement-1",
+        "title": "Emergency Shower Valve Replacement",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-shower-valve-replacement-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-shower-valve-replacement-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Shower Valve Replacement?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Shower Valve Replacement?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Shower Valve Replacement Houston TX | Service Squad",
+      "description": "Need Shower Valve Replacement in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Shower Valve Replacement Houston",
+        "Shower Valve Replacement near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-water-heaters-installation",
+    "_type": "service",
+    "title": "Water Heaters Installation in Houston, TX",
+    "shortTitle": "Water Heaters Installation",
+    "slug": {
+      "_type": "slug",
+      "current": "water-heaters-installation"
+    },
+    "iconName": "Flame",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Water Heaters Installation Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Water Heaters Installation for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-water-heaters-installation-1",
+        "title": "Emergency Water Heaters Installation",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-heaters-installation-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-heaters-installation-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Water Heaters Installation?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Water Heaters Installation?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Water Heaters Installation Houston TX | Service Squad",
+      "description": "Need Water Heaters Installation in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Water Heaters Installation Houston",
+        "Water Heaters Installation near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-water-heaters-repair",
+    "_type": "service",
+    "title": "Water Heaters Repair in Houston, TX",
+    "shortTitle": "Water Heaters Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "water-heaters-repair"
+    },
+    "iconName": "Wrench",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Water Heaters Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Water Heaters Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-water-heaters-repair-1",
+        "title": "Emergency Water Heaters Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-heaters-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-water-heaters-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Water Heaters Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Water Heaters Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Water Heaters Repair Houston TX | Service Squad",
+      "description": "Need Water Heaters Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Water Heaters Repair Houston",
+        "Water Heaters Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-plumbing-repairs",
+    "_type": "service",
+    "title": "Plumbing Repairs in Houston, TX",
+    "shortTitle": "Plumbing Repairs",
+    "slug": {
+      "_type": "slug",
+      "current": "plumbing-repairs"
+    },
+    "iconName": "PenTool",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Plumbing Repairs Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Plumbing Repairs for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-plumbing-repairs-1",
+        "title": "Emergency Plumbing Repairs",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-repairs-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-plumbing-repairs-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Plumbing Repairs?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Plumbing Repairs?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Plumbing Repairs Houston TX | Service Squad",
+      "description": "Need Plumbing Repairs in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Plumbing Repairs Houston",
+        "Plumbing Repairs near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-gas-line-repairs",
+    "_type": "service",
+    "title": "Gas Line Repairs in Houston, TX",
+    "shortTitle": "Gas Line Repairs",
+    "slug": {
+      "_type": "slug",
+      "current": "gas-line-repairs"
+    },
+    "iconName": "AlertOctagon",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Gas Line Repairs Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Gas Line Repairs for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-gas-line-repairs-1",
+        "title": "Emergency Gas Line Repairs",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-gas-line-repairs-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-gas-line-repairs-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Gas Line Repairs?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Gas Line Repairs?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Gas Line Repairs Houston TX | Service Squad",
+      "description": "Need Gas Line Repairs in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Gas Line Repairs Houston",
+        "Gas Line Repairs near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-ac-installation",
+    "_type": "service",
+    "title": "AC Installation in Houston, TX",
+    "shortTitle": "AC Installation",
+    "slug": {
+      "_type": "slug",
+      "current": "ac-installation"
+    },
+    "iconName": "Thermometer",
+    "category": "both",
+    "heroTagline": "Professional 24/7 AC Installation Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed AC Installation for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-ac-installation-1",
+        "title": "Emergency AC Installation",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-ac-installation-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-ac-installation-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for AC Installation?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for AC Installation?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "AC Installation Houston TX | Service Squad",
+      "description": "Need AC Installation in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "AC Installation Houston",
+        "AC Installation near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-ac-repair",
+    "_type": "service",
+    "title": "AC Repair in Houston, TX",
+    "shortTitle": "AC Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "ac-repair"
+    },
+    "iconName": "Wind",
+    "category": "both",
+    "heroTagline": "Professional 24/7 AC Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed AC Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-ac-repair-1",
+        "title": "Emergency AC Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-ac-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-ac-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for AC Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for AC Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "AC Repair Houston TX | Service Squad",
+      "description": "Need AC Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "AC Repair Houston",
+        "AC Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-air-duct-cleaning",
+    "_type": "service",
+    "title": "Air Duct Cleaning in Houston, TX",
+    "shortTitle": "Air Duct Cleaning",
+    "slug": {
+      "_type": "slug",
+      "current": "air-duct-cleaning"
+    },
+    "iconName": "Airplay",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Air Duct Cleaning Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Air Duct Cleaning for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-air-duct-cleaning-1",
+        "title": "Emergency Air Duct Cleaning",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-air-duct-cleaning-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-air-duct-cleaning-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Air Duct Cleaning?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Air Duct Cleaning?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Air Duct Cleaning Houston TX | Service Squad",
+      "description": "Need Air Duct Cleaning in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Air Duct Cleaning Houston",
+        "Air Duct Cleaning near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-dryer-vent-cleaning",
+    "_type": "service",
+    "title": "Dryer Vent Cleaning in Houston, TX",
+    "shortTitle": "Dryer Vent Cleaning",
+    "slug": {
+      "_type": "slug",
+      "current": "dryer-vent-cleaning"
+    },
+    "iconName": "Compass",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Dryer Vent Cleaning Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Dryer Vent Cleaning for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-dryer-vent-cleaning-1",
+        "title": "Emergency Dryer Vent Cleaning",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-dryer-vent-cleaning-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-dryer-vent-cleaning-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Dryer Vent Cleaning?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Dryer Vent Cleaning?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Dryer Vent Cleaning Houston TX | Service Squad",
+      "description": "Need Dryer Vent Cleaning in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Dryer Vent Cleaning Houston",
+        "Dryer Vent Cleaning near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-commercial-water-damage",
+    "_type": "service",
+    "title": "Commercial Water Damage in Houston, TX",
+    "shortTitle": "Commercial Water Damage",
+    "slug": {
+      "_type": "slug",
+      "current": "commercial-water-damage"
+    },
+    "iconName": "Building",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Commercial Water Damage Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Commercial Water Damage for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-commercial-water-damage-1",
+        "title": "Emergency Commercial Water Damage",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-water-damage-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-water-damage-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Commercial Water Damage?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Commercial Water Damage?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Commercial Water Damage Houston TX | Service Squad",
+      "description": "Need Commercial Water Damage in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Commercial Water Damage Houston",
+        "Commercial Water Damage near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-residential-water-damage",
+    "_type": "service",
+    "title": "Residential Water Damage in Houston, TX",
+    "shortTitle": "Residential Water Damage",
+    "slug": {
+      "_type": "slug",
+      "current": "residential-water-damage"
+    },
+    "iconName": "Home",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Residential Water Damage Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Residential Water Damage for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-residential-water-damage-1",
+        "title": "Emergency Residential Water Damage",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-water-damage-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-water-damage-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Residential Water Damage?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Residential Water Damage?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Residential Water Damage Houston TX | Service Squad",
+      "description": "Need Residential Water Damage in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Residential Water Damage Houston",
+        "Residential Water Damage near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-flood-damage-restoration",
+    "_type": "service",
+    "title": "Flood Damage Restoration in Houston, TX",
+    "shortTitle": "Flood Damage Restoration",
+    "slug": {
+      "_type": "slug",
+      "current": "flood-damage-restoration"
+    },
+    "iconName": "CloudRain",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Flood Damage Restoration Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Flood Damage Restoration for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-flood-damage-restoration-1",
+        "title": "Emergency Flood Damage Restoration",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-flood-damage-restoration-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-flood-damage-restoration-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Flood Damage Restoration?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Flood Damage Restoration?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Flood Damage Restoration Houston TX | Service Squad",
+      "description": "Need Flood Damage Restoration in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Flood Damage Restoration Houston",
+        "Flood Damage Restoration near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-fire-damage-repair",
+    "_type": "service",
+    "title": "Fire Damage Repair in Houston, TX",
+    "shortTitle": "Fire Damage Repair",
+    "slug": {
+      "_type": "slug",
+      "current": "fire-damage-repair"
+    },
+    "iconName": "Flame",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Fire Damage Repair Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Fire Damage Repair for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-fire-damage-repair-1",
+        "title": "Emergency Fire Damage Repair",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-fire-damage-repair-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-fire-damage-repair-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Fire Damage Repair?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Fire Damage Repair?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Fire Damage Repair Houston TX | Service Squad",
+      "description": "Need Fire Damage Repair in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Fire Damage Repair Houston",
+        "Fire Damage Repair near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-smoke-damage-restoration",
+    "_type": "service",
+    "title": "Smoke Damage Restoration in Houston, TX",
+    "shortTitle": "Smoke Damage Restoration",
+    "slug": {
+      "_type": "slug",
+      "current": "smoke-damage-restoration"
+    },
+    "iconName": "CloudFog",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Smoke Damage Restoration Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Smoke Damage Restoration for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-smoke-damage-restoration-1",
+        "title": "Emergency Smoke Damage Restoration",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-smoke-damage-restoration-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-smoke-damage-restoration-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Smoke Damage Restoration?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Smoke Damage Restoration?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Smoke Damage Restoration Houston TX | Service Squad",
+      "description": "Need Smoke Damage Restoration in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Smoke Damage Restoration Houston",
+        "Smoke Damage Restoration near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-commercial-construction",
+    "_type": "service",
+    "title": "Commercial Construction in Houston, TX",
+    "shortTitle": "Commercial Construction",
+    "slug": {
+      "_type": "slug",
+      "current": "commercial-construction"
+    },
+    "iconName": "Briefcase",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Commercial Construction Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Commercial Construction for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-commercial-construction-1",
+        "title": "Emergency Commercial Construction",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-construction-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-commercial-construction-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Commercial Construction?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Commercial Construction?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Commercial Construction Houston TX | Service Squad",
+      "description": "Need Commercial Construction in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Commercial Construction Houston",
+        "Commercial Construction near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-bathroom-remodeling",
+    "_type": "service",
+    "title": "Bathroom Remodeling in Houston, TX",
+    "shortTitle": "Bathroom Remodeling",
+    "slug": {
+      "_type": "slug",
+      "current": "bathroom-remodeling"
+    },
+    "iconName": "CheckSquare",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Bathroom Remodeling Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Bathroom Remodeling for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-bathroom-remodeling-1",
+        "title": "Emergency Bathroom Remodeling",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-bathroom-remodeling-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-bathroom-remodeling-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Bathroom Remodeling?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Bathroom Remodeling?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Bathroom Remodeling Houston TX | Service Squad",
+      "description": "Need Bathroom Remodeling in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Bathroom Remodeling Houston",
+        "Bathroom Remodeling near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-residential-renovation",
+    "_type": "service",
+    "title": "Residential Renovation in Houston, TX",
+    "shortTitle": "Residential Renovation",
+    "slug": {
+      "_type": "slug",
+      "current": "residential-renovation"
+    },
+    "iconName": "Maximize2",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Residential Renovation Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Residential Renovation for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-residential-renovation-1",
+        "title": "Emergency Residential Renovation",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-renovation-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-renovation-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Residential Renovation?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Residential Renovation?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Residential Renovation Houston TX | Service Squad",
+      "description": "Need Residential Renovation in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Residential Renovation Houston",
+        "Residential Renovation near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-damage-reconstruction",
+    "_type": "service",
+    "title": "Damage Reconstruction in Houston, TX",
+    "shortTitle": "Damage Reconstruction",
+    "slug": {
+      "_type": "slug",
+      "current": "damage-reconstruction"
+    },
+    "iconName": "Hammer",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Damage Reconstruction Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Damage Reconstruction for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-damage-reconstruction-1",
+        "title": "Emergency Damage Reconstruction",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-damage-reconstruction-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-damage-reconstruction-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Damage Reconstruction?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Damage Reconstruction?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Damage Reconstruction Houston TX | Service Squad",
+      "description": "Need Damage Reconstruction in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Damage Reconstruction Houston",
+        "Damage Reconstruction near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-mold-removal",
+    "_type": "service",
+    "title": "Mold Removal in Houston, TX",
+    "shortTitle": "Mold Removal",
+    "slug": {
+      "_type": "slug",
+      "current": "mold-removal"
+    },
+    "iconName": "Biohazard",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Mold Removal Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Mold Removal for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-mold-removal-1",
+        "title": "Emergency Mold Removal",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-mold-removal-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-mold-removal-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Mold Removal?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Mold Removal?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Mold Removal Houston TX | Service Squad",
+      "description": "Need Mold Removal in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Mold Removal Houston",
+        "Mold Removal near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "service-residential-board-up",
+    "_type": "service",
+    "title": "Residential Board Up in Houston, TX",
+    "shortTitle": "Residential Board Up",
+    "slug": {
+      "_type": "slug",
+      "current": "residential-board-up"
+    },
+    "iconName": "Shield",
+    "category": "both",
+    "heroTagline": "Professional 24/7 Residential Board Up Services Across Greater Houston, TX",
+    "description": "Service Squad provides fast, reliable, and licensed Residential Board Up for residential and commercial properties throughout Houston, Katy, Sugar Land, Pearland, and surrounding areas. Our expert technicians are equipped with advanced tools to deliver long-lasting solutions with transparent pricing and exceptional customer care.",
+    "emergencyResponseTime": "Licensed & Certified Trade",
+    "subServices": [
+      {
+        "_key": "sub-residential-board-up-1",
+        "title": "Emergency Residential Board Up",
+        "description": "Immediate on-site diagnostics and rapid execution to prevent secondary property damage.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-board-up-2",
+        "title": "Comprehensive Inspection & Assessment",
+        "description": "In-depth analysis using modern diagnostic equipment to identify root causes and deliver permanent repairs.",
+        "keySteps": []
+      },
+      {
+        "_key": "sub-residential-board-up-3",
+        "title": "Turnkey Completion & Quality Guarantee",
+        "description": "Complete repair, restoration, and clean-up backed by our 100% satisfaction guarantee.",
+        "keySteps": []
+      }
+    ],
+    "processSteps": [
+      {
+        "_key": "step-1",
+        "step": 1,
+        "title": "Prompt On-Site Arrival",
+        "description": "Our licensed squad arrives rapidly on site.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-2",
+        "step": 2,
+        "title": "Inspection & Quote",
+        "description": "Comprehensive diagnostic scan with clear, upfront pricing.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-3",
+        "step": 3,
+        "title": "Professional Execution",
+        "description": "Skilled technicians complete the work adhering to safety codes.",
+        "timeWindow": ""
+      },
+      {
+        "_key": "step-4",
+        "step": 4,
+        "title": "Final Inspection & Clean Up",
+        "description": "Rigorous quality testing and total clean up of your property.",
+        "timeWindow": ""
+      }
+    ],
+    "equipment": [
+      "Industrial diagnostic tools",
+      "Specialized extraction & repair equipment",
+      "Digital meters & thermal scanners"
+    ],
+    "commercialCapabilities": [
+      "Commercial multi-unit buildings",
+      "Office complexes",
+      "Retail & industrial facilities"
+    ],
+    "residentialCapabilities": [
+      "Single family homes",
+      "Apartments & condos",
+      "Historic residential properties"
+    ],
+    "insuranceGuidance": "We work seamlessly with all major property insurance carriers, providing detailed photo documentation and direct billing assistance.",
+    "faqs": [
+      {
+        "_key": "faq-0",
+        "question": "How quickly can Service Squad respond for Residential Board Up?",
+        "answer": "We provide 24/7 rapid dispatch across Greater Houston, Katy, Sugar Land, and surrounding Texas cities. We arrive promptly to assess and resolve your needs."
+      },
+      {
+        "_key": "faq-1",
+        "question": "Are your technicians licensed and insured?",
+        "answer": "Yes, all Service Squad technicians are fully licensed, bonded, and insured, delivering trusted, top-tier craftsmanship."
+      },
+      {
+        "_key": "faq-2",
+        "question": "Do you provide upfront pricing for Residential Board Up?",
+        "answer": "Yes. We provide completely transparent, upfront pricing before any work begins with no hidden surprises."
+      }
+    ],
+    "seo": {
+      "title": "Residential Board Up Houston TX | Service Squad",
+      "description": "Need Residential Board Up in Houston, TX? Service Squad offers 24/7 emergency dispatch, licensed technicians, and upfront pricing. Call (713) 999-9150.",
+      "keywords": [
+        "Residential Board Up Houston",
+        "Residential Board Up near me",
+        "Houston property services",
+        "Service Squad Houston"
+      ]
+    }
+  },
+  {
+    "_id": "location-houston-tx",
+    "_type": "location",
+    "city": "Houston",
+    "slug": {
+      "_type": "slug",
+      "current": "houston-tx"
+    },
+    "state": "TX",
+    "zip": "77081",
+    "isMainHub": true,
+    "serviceRadiusMiles": 30,
+    "phone": "(713) 999-9150",
+    "address": {
+      "street": "6750 Westpark Dr, Ste 200",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77081"
+    },
+    "geo": {
+      "lat": 29.7196,
+      "lng": -95.4851
+    },
+    "coveredZips": [
+      "77081",
+      "77002",
+      "77005",
+      "77019",
+      "77024",
+      "77027",
+      "77030",
+      "77036",
+      "77042",
+      "77056",
+      "77057",
+      "77063",
+      "77074",
+      "77077",
+      "77079",
+      "77096"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "location-katy-tx",
+    "_type": "location",
+    "city": "Katy",
+    "slug": {
+      "_type": "slug",
+      "current": "katy-tx"
+    },
+    "state": "TX",
+    "zip": "77494",
+    "isMainHub": false,
+    "serviceRadiusMiles": 25,
+    "phone": "(281) 555-5289",
+    "address": {
+      "street": "22722 Kingsland Blvd",
+      "city": "Katy",
+      "state": "TX",
+      "zip": "77494"
+    },
+    "geo": {
+      "lat": 29.7858,
+      "lng": -95.8245
+    },
+    "coveredZips": [
+      "77494",
+      "77493",
+      "77449",
+      "77450",
+      "77492"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "location-sugar-land-tx",
+    "_type": "location",
+    "city": "Sugar Land",
+    "slug": {
+      "_type": "slug",
+      "current": "sugar-land-tx"
+    },
+    "state": "TX",
+    "zip": "77479",
+    "isMainHub": false,
+    "serviceRadiusMiles": 25,
+    "phone": "(281) 555-7842",
+    "address": {
+      "street": "1650 Highway 6 S",
+      "city": "Sugar Land",
+      "state": "TX",
+      "zip": "77479"
+    },
+    "geo": {
+      "lat": 29.6197,
+      "lng": -95.6349
+    },
+    "coveredZips": [
+      "77479",
+      "77478",
+      "77498",
+      "77477"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "location-the-woodlands-tx",
+    "_type": "location",
+    "city": "The Woodlands",
+    "slug": {
+      "_type": "slug",
+      "current": "the-woodlands-tx"
+    },
+    "state": "TX",
+    "zip": "77380",
+    "isMainHub": false,
+    "serviceRadiusMiles": 30,
+    "phone": "(936) 555-8663",
+    "address": {
+      "street": "2002 Timberloch Pl",
+      "city": "The Woodlands",
+      "state": "TX",
+      "zip": "77380"
+    },
+    "geo": {
+      "lat": 30.1588,
+      "lng": -95.4613
+    },
+    "coveredZips": [
+      "77380",
+      "77381",
+      "77382",
+      "77384",
+      "77385"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "location-pearland-tx",
+    "_type": "location",
+    "city": "Pearland",
+    "slug": {
+      "_type": "slug",
+      "current": "pearland-tx"
+    },
+    "state": "TX",
+    "zip": "77584",
+    "isMainHub": false,
+    "serviceRadiusMiles": 25,
+    "phone": "(281) 555-7327",
+    "address": {
+      "street": "2803 Business Center Dr",
+      "city": "Pearland",
+      "state": "TX",
+      "zip": "77584"
+    },
+    "geo": {
+      "lat": 29.5636,
+      "lng": -95.286
+    },
+    "coveredZips": [
+      "77584",
+      "77581",
+      "77588"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "location-cypress-tx",
+    "_type": "location",
+    "city": "Cypress",
+    "slug": {
+      "_type": "slug",
+      "current": "cypress-tx"
+    },
+    "state": "TX",
+    "zip": "77429",
+    "isMainHub": false,
+    "serviceRadiusMiles": 25,
+    "phone": "(281) 555-2977",
+    "address": {
+      "street": "25222 Northwest Fwy",
+      "city": "Cypress",
+      "state": "TX",
+      "zip": "77429"
+    },
+    "geo": {
+      "lat": 29.9691,
+      "lng": -95.6972
+    },
+    "coveredZips": [
+      "77429",
+      "77433",
+      "77410"
+    ],
+    "dniTrackingNumber": "",
+    "googleReviewRating": 4.9,
+    "googleReviewCount": 500
+  },
+  {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "companyName": "Service Squad",
+    "crmWebhookUrl": "https://api.servicesquadtx.com/webhook/leads",
+    "callRailDniScript": ""
+  }
+];

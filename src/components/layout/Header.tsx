@@ -27,13 +27,12 @@ import { usePathname } from 'next/navigation';
 import { SERVICE_CATEGORIES } from '@/lib/data/services';
 
 const SERVICE_AREAS = [
-  { name: 'Houston, Texas', slug: 'houston' },
-  { name: 'Bellaire, Texas', slug: 'bellaire' },
-  { name: 'Katy, Texas', slug: 'katy' },
-  { name: 'Pearland, Texas', slug: 'pearland' },
-  { name: 'Rosenberg, Texas', slug: 'rosenberg' },
-  { name: 'Stafford, Texas', slug: 'stafford' },
-  { name: 'Sugar Land, Texas', slug: 'sugar-land' }
+  { name: 'Houston Hub (Central)', slug: 'houston-tx' },
+  { name: 'Katy, Texas', slug: 'katy-tx' },
+  { name: 'Sugar Land, Texas', slug: 'sugar-land-tx' },
+  { name: 'The Woodlands, Texas', slug: 'the-woodlands-tx' },
+  { name: 'Pearland, Texas', slug: 'pearland-tx' },
+  { name: 'Cypress, Texas', slug: 'cypress-tx' },
 ];
 
 export function Header() {
@@ -42,6 +41,8 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [areasOpen, setAreasOpen] = useState(false);
+
+  if (pathname?.startsWith('/studio')) return null;
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm font-sans">

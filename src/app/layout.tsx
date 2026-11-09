@@ -1,11 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import { LocationProvider } from '@/lib/context/LocationContext';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
-import { StickyEmergencyBar } from '@/components/layout/StickyEmergencyBar';
-import { LazyThirdPartyScripts } from '@/components/layout/LazyThirdPartyScripts';
+import { AppShell } from '@/components/layout/AppShell';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -62,13 +58,7 @@ export default function RootLayout({
         className={`min-h-screen flex flex-col bg-[#F7F7F8] text-slate-900 antialiased selection:bg-[#F4793E] selection:text-white ${inter.className}`}
         suppressHydrationWarning
       >
-        <LocationProvider>
-          <Header />
-          <div className="flex-1">{children}</div>
-          <Footer />
-          <StickyEmergencyBar />
-          <LazyThirdPartyScripts />
-        </LocationProvider>
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );

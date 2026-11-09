@@ -15,7 +15,8 @@ import {
   HelpCircle, 
   ChevronRight,
   CheckCircle2,
-  AlertTriangle
+  AlertTriangle,
+  MapPin
 } from 'lucide-react';
 import { EmergencyIntakeForm } from '@/components/forms/EmergencyIntakeForm';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -161,37 +162,39 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             </section>
 
             {/* Sub-Services Breakdown */}
-            <section>
-              <h2 className="text-2xl font-black text-[#0B192C] mb-6">
-                Specialized {service.shortTitle} Capabilities
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {service.subServices.map((sub) => (
-                  <div
-                    key={sub.id}
-                    className="bg-white rounded-xl p-6 border border-slate-200/90 shadow-sm"
-                  >
-                    <h3 className="text-base font-bold text-slate-900 mb-2">
-                      {sub.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
-                      {sub.description}
-                    </p>
+            {(service.subServices || []).length > 0 && (
+              <section>
+                <h2 className="text-2xl font-black text-[#0B192C] mb-6">
+                  Specialized {service.shortTitle} Capabilities
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  {(service.subServices || []).map((sub) => (
+                    <div
+                      key={sub.id}
+                      className="bg-white rounded-xl p-6 border border-slate-200/90 shadow-sm"
+                    >
+                      <h3 className="text-base font-bold text-slate-900 mb-2">
+                        {sub.title}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                        {sub.description}
+                      </p>
 
-                    {sub.keySteps && (
-                      <div className="space-y-1 text-xs text-slate-500">
-                        {sub.keySteps.map((step, idx) => (
-                          <div key={idx} className="flex items-center gap-1.5">
-                            <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
-                            <span>{step}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </section>
+                      {Boolean(sub.keySteps?.length) && (
+                        <div className="space-y-1 text-xs text-slate-500">
+                          {(sub.keySteps || []).map((step, idx) => (
+                            <div key={idx} className="flex items-center gap-1.5">
+                              <span className="w-1.5 h-1.5 rounded-full bg-orange-500" />
+                              <span>{step}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* Real Field Work & Project Photos */}
             {galleryImages.length > 0 && (
@@ -229,79 +232,122 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             )}
 
             {/* Restoration Process Timeline */}
-            <section className="bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200">
-              <h2 className="text-2xl font-black text-[#0B192C] mb-6">
-                Our Proven Step-by-Step Emergency Process
-              </h2>
-              <div className="space-y-6">
-                {service.processSteps.map((step) => (
-                  <div key={step.step} className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-orange-600 text-white font-black text-sm flex items-center justify-center shrink-0">
-                      {step.step}
-                    </div>
-                    <div>
-                      <div className="flex flex-wrap items-center gap-2">
-                        <h3 className="text-base font-bold text-slate-900">
-                          {step.title}
-                        </h3>
-                        {step.timeWindow && (
-                          <span className="text-[11px] bg-slate-200 text-slate-700 px-2 py-0.5 rounded font-bold">
-                            {step.timeWindow}
-                          </span>
-                        )}
+            {(service.processSteps || []).length > 0 && (
+              <section className="bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200">
+                <h2 className="text-2xl font-black text-[#0B192C] mb-6">
+                  Our Proven Step-by-Step Emergency Process
+                </h2>
+                <div className="space-y-6">
+                  {(service.processSteps || []).map((step) => (
+                    <div key={step.step} className="flex items-start gap-4">
+                      <div className="w-10 h-10 rounded-full bg-orange-600 text-white font-black text-sm flex items-center justify-center shrink-0">
+                        {step.step}
                       </div>
-                      <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-                        {step.description}
-                      </p>
+                      <div>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <h3 className="text-base font-bold text-slate-900">
+                            {step.title}
+                          </h3>
+                          {step.timeWindow && (
+                            <span className="text-[11px] bg-slate-200 text-slate-700 px-2 py-0.5 rounded font-bold">
+                              {step.timeWindow}
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+                          {step.description}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
-            </section>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* Industrial Equipment Utilized */}
-            <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200">
-              <div className="flex items-center gap-2 mb-4">
-                <Wrench className="w-5 h-5 text-orange-600" />
-                <h2 className="text-xl font-black text-[#0B192C]">
-                  Commercial-Grade Technology & Equipment
-                </h2>
-              </div>
-              <p className="text-xs sm:text-sm text-slate-600 mb-4">
-                We deploy industry-leading heavy restoration machinery to accelerate recovery time and guarantee pre-loss moisture standards.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-800">
-                {service.equipment.map((eq, idx) => (
-                  <div key={idx} className="flex items-center gap-2 p-2 rounded-lg bg-slate-50">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>{eq}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
+            {(service.equipment || []).length > 0 && (
+              <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200">
+                <div className="flex items-center gap-2 mb-4">
+                  <Wrench className="w-5 h-5 text-orange-600" />
+                  <h2 className="text-xl font-black text-[#0B192C]">
+                    Commercial-Grade Technology & Equipment
+                  </h2>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-600 mb-4">
+                  We deploy industry-leading heavy restoration machinery to accelerate recovery time and guarantee pre-loss moisture standards.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-800">
+                  {(service.equipment || []).map((eq, idx) => (
+                    <div key={idx} className="flex items-center gap-2 p-2 rounded-lg bg-slate-50">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <span>{eq}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Service Availability / Locations */}
+            {(service.locations || []).length > 0 && (
+              <section className="bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200">
+                <div className="flex items-center gap-2 mb-4">
+                  <MapPin className="w-5 h-5 text-orange-600" />
+                  <h2 className="text-xl font-black text-[#0B192C]">
+                    Available Service Locations
+                  </h2>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-600 mb-6">
+                  {service.shortTitle} is dispatched 24/7 across the following local Texas branch facilities:
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {(service.locations || []).map((loc) => (
+                    <Link
+                      key={loc.id}
+                      href={`/locations/${loc.slug}`}
+                      className="flex items-center justify-between p-3.5 rounded-xl bg-white border border-slate-200 hover:border-orange-500 hover:shadow-sm transition-all group"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <MapPin className="w-4 h-4 text-orange-500 shrink-0" />
+                        <div>
+                          <div className="font-bold text-slate-900 group-hover:text-orange-600 text-sm">
+                            {loc.city}, {loc.state}
+                          </div>
+                          {loc.phone && (
+                            <span className="text-[11px] text-slate-500">Dispatch: {loc.phone}</span>
+                          )}
+                        </div>
+                      </div>
+                      <ChevronRight className="w-4 h-4 text-slate-400 group-hover:text-orange-600 group-hover:translate-x-0.5 transition-all" />
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* FAQs Accordion */}
-            <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200">
-              <div className="flex items-center gap-2 mb-6">
-                <HelpCircle className="w-5 h-5 text-orange-600" />
-                <h2 className="text-2xl font-black text-[#0B192C]">
-                  Frequently Asked Questions
-                </h2>
-              </div>
+            {(service.faqs || []).length > 0 && (
+              <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200">
+                <div className="flex items-center gap-2 mb-6">
+                  <HelpCircle className="w-5 h-5 text-orange-600" />
+                  <h2 className="text-2xl font-black text-[#0B192C]">
+                    Frequently Asked Questions
+                  </h2>
+                </div>
 
-              <div className="space-y-4">
-                {service.faqs.map((faq, idx) => (
-                  <div key={idx} className="border border-slate-200 rounded-xl p-4">
-                    <h3 className="text-sm sm:text-base font-bold text-slate-900 mb-2">
-                      {faq.question}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </section>
+                <div className="space-y-4">
+                  {(service.faqs || []).map((faq, idx) => (
+                    <div key={idx} className="border border-slate-200 rounded-xl p-4">
+                      <h3 className="text-sm sm:text-base font-bold text-slate-900 mb-2">
+                        {faq.question}
+                      </h3>
+                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
 
           {/* Sticky Sidebar / Lead Intake */}

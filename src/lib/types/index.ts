@@ -37,6 +37,13 @@ export interface ServiceLine {
   residentialCapabilities: string[];
   insuranceGuidance?: string;
   faqs: FAQItem[];
+  locations?: {
+    id: string;
+    slug: string;
+    city: string;
+    state: string;
+    phone?: string;
+  }[];
   seo: {
     title: string;
     description: string;
