@@ -7,7 +7,7 @@ import AutoPopulateTool from './src/lib/sanity/AutoPopulateTool';
 export default defineConfig({
   name: 'default',
   title: 'Service Squad CMS Studio',
-  projectId: projectId || 'placeholder',
+  projectId: projectId || 'wtk1cisw',
   dataset: dataset || 'production',
   basePath: '/studio',
   plugins: [structureTool()],

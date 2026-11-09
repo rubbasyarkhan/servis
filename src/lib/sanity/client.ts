@@ -2,10 +2,10 @@ import { createClient, type ClientConfig } from 'next-sanity';
 import { projectId, dataset, apiVersion, isSanityConfigured } from './config';
 
 export const clientConfig: ClientConfig = {
-  projectId: projectId || 'placeholder',
-  dataset,
+  projectId: projectId || 'wtk1cisw',
+  dataset: dataset || 'production',
   apiVersion,
-  useCdn: process.env.NODE_ENV === 'production',
+  useCdn: false,
   perspective: 'published',
 };
 
