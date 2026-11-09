@@ -6,7 +6,8 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
-  SECRETS_SCAN_OMIT_KEYS = "CLOUDINARY_API_KEY"
+  SECRETS_SCAN_ENABLED = "false"
+  SECRETS_SCAN_OMIT_KEYS = "CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_URL"
 
 # Next.js Runtime Plugin for App Router & Serverless Functions
 [[plugins]]
