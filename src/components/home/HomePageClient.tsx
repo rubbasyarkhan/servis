@@ -79,15 +79,9 @@ const CORE_CARDS = [
 ];
 
 export function HomePageClient() {
-  const { activeLocation, phoneNumber, lookupZip, detectUserLocation, isDetectingLocation } = useLocation();
+  const { activeLocation, setActiveLocation, phoneNumber, lookupZip, detectUserLocation, isDetectingLocation } = useLocation();
   const [zipModalOpen, setZipModalOpen] = useState(false);
   const [zipInput, setZipInput] = useState('');
-  const [zipResult, setZipResult] = useState<{
-    branch: string;
-    city: string;
-    zip: string;
-    phone: string;
-  } | null>(null);
   const [localDetecting, setLocalDetecting] = useState(false);
   const [galleryFilter, setGalleryFilter] = useState<string>('all');
   const [beforeAfterToggle, setBeforeAfterToggle] = useState<Record<string, boolean>>({});
@@ -109,20 +103,13 @@ export function HomePageClient() {
     try {
       const found = await lookupZip(clean);
       if (found) {
-        setZipResult({
-          branch: found.isMainHub ? 'Central Command Hub' : `${found.city} Command Hub`,
-          city: found.city,
-          zip: found.zip || clean,
-          phone: found.phone || phoneNumber
-        });
-      } else {
-        setZipResult({
-          branch: `${clean} Coverage Hub`,
-          city: 'Texas',
-          zip: clean,
-          phone: phoneNumber
-        });
+        setActiveLocation(found);
       }
+      // Auto-close modal immediately so the user returns to the hero section with the updated location
+      setZipModalOpen(false);
+      setZipInput('');
+    } catch (err) {
+      console.error('Location lookup error:', err);
     } finally {
       setLocalDetecting(false);
     }
@@ -133,18 +120,22 @@ export function HomePageClient() {
     try {
       const detected = await detectUserLocation();
       if (detected) {
-        setZipResult({
-          branch: detected.isMainHub ? 'Central Command Hub' : `${detected.city} Command Hub`,
-          city: detected.city,
-          zip: detected.zip || 'Local',
-          phone: detected.phone || phoneNumber
-        });
+        setActiveLocation(detected);
       }
+      // Auto-close modal immediately
+      setZipModalOpen(false);
+      setZipInput('');
     } catch (err) {
       console.error('Location detection failed:', err);
     } finally {
       setLocalDetecting(false);
     }
+  };
+
+  const handleSelectHub = (hub: (typeof TEXAS_LOCATIONS)[number]) => {
+    setActiveLocation(hub);
+    setZipModalOpen(false);
+    setZipInput('');
   };
 
   return (
@@ -750,8 +741,8 @@ export function HomePageClient() {
         <div className="fixed inset-0 z-[99999] bg-black/75 flex items-center justify-center p-4">
           <div className="bg-[#F7F7F8] rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative">
             <button
-              onClick={() => { setZipModalOpen(false); setZipResult(null); }}
-              className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-2xl font-bold w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-200 transition-colors"
+              onClick={() => { setZipModalOpen(false); }}
+              className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-2xl font-bold w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-200 transition-colors cursor-pointer"
               aria-label="Close"
             >
               &times;
@@ -763,66 +754,76 @@ export function HomePageClient() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-[#1e293b]">
-                  Find Your Local Service Squad
+                  Change Service Location
                 </h3>
                 <p className="text-xs text-slate-500">
-                  Enter your ZIP code to verify coverage for your property.
+                  Select your city or enter your 5-digit ZIP code.
                 </p>
               </div>
             </div>
 
+            {/* Quick Select Franchise Hubs */}
             <div className="mb-4">
-              <button
-                type="button"
-                onClick={handleDetectLocation}
-                disabled={isDetecting}
-                className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-white border border-slate-300 hover:border-[#559A23] hover:text-[#559A23] rounded-xl text-xs font-semibold text-slate-700 transition-all shadow-sm"
-              >
-                <span className="w-2.5 h-2.5 rounded-full bg-[#559A23]"></span>
-                {isDetecting ? 'Detecting location...' : 'Use My Current Location'}
-              </button>
+              <label className="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-2">
+                Quick Select Texas Hub
+              </label>
+              <div className="flex flex-wrap gap-2">
+                {TEXAS_LOCATIONS.map((loc) => {
+                  const isCurrent = activeLocation.city.toLowerCase() === loc.city.toLowerCase();
+                  return (
+                    <button
+                      key={loc.id}
+                      type="button"
+                      onClick={() => handleSelectHub(loc)}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                        isCurrent
+                          ? 'bg-[#F4793E] text-white shadow-sm ring-2 ring-[#F4793E]/30'
+                          : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-300'
+                      }`}
+                    >
+                      {loc.city}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="relative my-4 flex items-center justify-center">
+              <div className="border-t border-slate-200 w-full" />
+              <span className="bg-[#F7F7F8] px-3 text-[11px] font-bold text-slate-400 uppercase tracking-wider absolute">
+                or search by ZIP / City
+              </span>
             </div>
 
             <form onSubmit={handleLookup} className="flex gap-2 mb-4">
               <input
                 type="text"
-                placeholder="Enter 5-digit ZIP (e.g. 77081, 77494)"
+                placeholder="Enter 5-digit ZIP (e.g. 77081, 77494) or City"
                 value={zipInput}
                 onChange={(e) => setZipInput(e.target.value)}
-                maxLength={5}
+                maxLength={25}
                 className="flex-1 px-4 py-2.5 bg-white border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#F4793E]"
               />
               <button
                 type="submit"
-                className="bg-[#0B192C] hover:bg-[#1E3E62] text-white px-5 py-2.5 rounded-xl font-bold text-xs transition-colors shrink-0"
+                disabled={isDetecting}
+                className="bg-[#0B192C] hover:bg-[#1E3E62] text-white px-5 py-2.5 rounded-xl font-bold text-xs transition-colors shrink-0 disabled:opacity-50 cursor-pointer"
               >
-                Find Team
+                {isDetecting ? 'Applying...' : 'Apply'}
               </button>
             </form>
 
-            {zipResult && (
-              <div className="p-4 bg-white rounded-xl border border-slate-200 mt-2 space-y-2">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="text-xs font-bold text-[#559A23]">
-                      Service Available
-                    </div>
-                    <div className="text-base font-extrabold text-slate-900">
-                      {zipResult.city}, {activeLocation.state || 'TX'} Command Hub
-                    </div>
-                  </div>
-                  <a
-                    href={`tel:${zipResult.phone.replace(/[^0-9]/g, '')}`}
-                    className="bg-[#F4793E] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold"
-                  >
-                    Call: {zipResult.phone}
-                  </a>
-                </div>
-                <div className="text-xs text-slate-500">
-                  Full coverage for ZIP {zipResult.zip} with licensed technicians and direct insurance billing.
-                </div>
-              </div>
-            )}
+            <div>
+              <button
+                type="button"
+                onClick={handleDetectLocation}
+                disabled={isDetecting}
+                className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-white border border-slate-300 hover:border-[#559A23] hover:text-[#559A23] rounded-xl text-xs font-semibold text-slate-700 transition-all shadow-sm cursor-pointer"
+              >
+                <span className="w-2.5 h-2.5 rounded-full bg-[#559A23]"></span>
+                {isDetecting ? 'Detecting GPS location...' : 'Use My Current GPS Location'}
+              </button>
+            </div>
           </div>
         </div>
       )}

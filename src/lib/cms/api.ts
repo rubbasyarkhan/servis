@@ -107,60 +107,91 @@ export async function getMainHubLocation(): Promise<LocationHub> {
   return mainHub || allLocations[0];
 }
 
-export async function findLocationByZip(zip: string): Promise<LocationHub | null> {
-  const cleanZip = zip.trim().slice(0, 5);
-  if (!cleanZip) return null;
+export async function findLocationByZip(query: string): Promise<LocationHub | null> {
+  const clean = query.trim();
+  if (!clean) return null;
 
   const allLocations = await getAllLocations();
+  const lowerClean = clean.toLowerCase();
 
-  // 1. Direct match with static covered zips or primary zip
-  const directMatch = allLocations.find(
-    (l) => l.zip === cleanZip || (l.coveredZips || []).includes(cleanZip)
+  // 1. Direct match by City name or Slug
+  const cityMatch = allLocations.find(
+    (l) =>
+      l.city.toLowerCase() === lowerClean ||
+      l.slug.toLowerCase() === lowerClean ||
+      l.slug.toLowerCase() === `${lowerClean}-tx`
   );
-  if (directMatch) return directMatch;
+  if (cityMatch) return cityMatch;
 
-  // 2. Query US Postal database via Zippopotam (fast, free)
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 3000);
-    const res = await fetch(`https://api.zippopotam.us/us/${cleanZip}`, {
-      signal: controller.signal
-    });
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      const data = await res.json();
-      const place = data.places?.[0];
-      if (place) {
-        const placeName = place['place name'] || '';
-        const state = place['state abbreviation'] || 'TX';
-        const lat = parseFloat(place.latitude) || 29.7604;
-        const lng = parseFloat(place.longitude) || -95.3698;
-
-        const staticByCity = allLocations.find(
-          (l) => l.city.toLowerCase() === placeName.toLowerCase()
-        );
-        if (staticByCity) {
-          return {
-            ...staticByCity,
-            zip: cleanZip
-          };
-        }
-
-        return createDynamicHub(placeName, state, cleanZip, lat, lng);
-      }
+  // 2. Direct match with static covered zips or primary zip
+  const cleanZip = clean.replace(/[^0-9]/g, '').slice(0, 5);
+  if (cleanZip.length === 5) {
+    const directMatch = allLocations.find(
+      (l) => l.zip === cleanZip || (l.coveredZips || []).includes(cleanZip)
+    );
+    if (directMatch) {
+      return {
+        ...directMatch,
+        zip: cleanZip,
+      };
     }
-  } catch {
-    // Network or timeout
+
+    // 3. Query US Postal database via Zippopotam (fast, free)
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2500);
+      const res = await fetch(`https://api.zippopotam.us/us/${cleanZip}`, {
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (res.ok) {
+        const data = await res.json();
+        const place = data.places?.[0];
+        if (place) {
+          const placeName = place['place name'] || '';
+          const state = place['state abbreviation'] || 'TX';
+          const lat = parseFloat(place.latitude) || 29.7604;
+          const lng = parseFloat(place.longitude) || -95.3698;
+
+          const staticByCity = allLocations.find(
+            (l) => l.city.toLowerCase() === placeName.toLowerCase()
+          );
+          if (staticByCity) {
+            return {
+              ...staticByCity,
+              zip: cleanZip
+            };
+          }
+
+          return createDynamicHub(placeName, state, cleanZip, lat, lng);
+        }
+      }
+    } catch {
+      // Network or timeout
+    }
+
+    // 4. Fallback for Texas ZIP prefixes (77xxx, 75xxx, 78xxx, 76xxx)
+    if (
+      cleanZip.startsWith('77') ||
+      cleanZip.startsWith('75') ||
+      cleanZip.startsWith('78') ||
+      cleanZip.startsWith('76')
+    ) {
+      const mainHub = await getMainHubLocation();
+      return {
+        ...mainHub,
+        zip: cleanZip
+      };
+    }
+
+    // 5. Fallback for any other valid 5-digit US ZIP code
+    return createDynamicHub(`ZIP ${cleanZip}`, 'TX', cleanZip, 29.7604, -95.3698);
   }
 
-  // 3. Fallback for Texas ZIP prefixes
-  if (cleanZip.startsWith('77') || cleanZip.startsWith('75') || cleanZip.startsWith('78') || cleanZip.startsWith('76')) {
-    const mainHub = await getMainHubLocation();
-    return {
-      ...mainHub,
-      zip: cleanZip
-    };
+  // 6. If user entered a city name not in predefined list (e.g. "Dallas", "Austin")
+  if (clean.length >= 3 && !/^\d+$/.test(clean)) {
+    return createDynamicHub(clean, 'TX', '', 29.7604, -95.3698);
   }
 
   return null;

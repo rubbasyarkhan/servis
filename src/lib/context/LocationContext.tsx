@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { LocationHub, SiteSettings } from '../types';
 import { TEXAS_LOCATIONS } from '../data/locations';
 import { DEFAULT_SITE_SETTINGS } from '../data/settings';
@@ -43,6 +43,7 @@ export function LocationProvider({
   const [audienceMode, setAudienceMode] = useState<AudienceMode>('residential');
   const [phoneNumber, setPhoneNumber] = useState<string>(defaultLocation.phone);
   const [isDetectingLocation, setIsDetectingLocation] = useState<boolean>(false);
+  const userManualOverrideRef = useRef<boolean>(false);
 
   // Update phone whenever activeLocation changes
   useEffect(() => {
@@ -51,6 +52,7 @@ export function LocationProvider({
 
   // Persist helper
   const setActiveLocation = useCallback((loc: LocationHub) => {
+    userManualOverrideRef.current = true;
     setActiveLocationState(loc);
     try {
       if (typeof window !== 'undefined') {
@@ -64,10 +66,11 @@ export function LocationProvider({
   // Client-side auto detection on initial mount (runs once after hydration)
   useEffect(() => {
     try {
-      const stored = localStorage.getItem(STORAGE_KEY);
+      const stored = typeof window !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : null;
       if (stored) {
         const parsed = JSON.parse(stored);
         if (parsed && parsed.city && parsed.phone) {
+          userManualOverrideRef.current = true;
           setActiveLocationState(parsed);
           return;
         }
@@ -76,18 +79,25 @@ export function LocationProvider({
       // Ignore storage read error
     }
 
-    // If no prior location was saved, auto-detect location via IP in background
+    // If no prior location was saved and user has not picked one yet, auto-detect location via IP in background
     let mounted = true;
     detectUserLocationFromIP().then((detected) => {
-      if (mounted && detected) {
-        setActiveLocation(detected);
+      if (mounted && detected && !userManualOverrideRef.current) {
+        try {
+          const stored = localStorage.getItem(STORAGE_KEY);
+          if (!stored) {
+            setActiveLocationState(detected);
+          }
+        } catch {
+          setActiveLocationState(detected);
+        }
       }
     });
 
     return () => {
       mounted = false;
     };
-  }, [setActiveLocation]);
+  }, []);
 
   const setActiveLocationBySlug = useCallback((slug: string) => {
     const found = TEXAS_LOCATIONS.find((l) => l.slug === slug);
@@ -97,6 +107,7 @@ export function LocationProvider({
   }, [setActiveLocation]);
 
   const lookupZip = useCallback(async (zip: string): Promise<LocationHub | null> => {
+    userManualOverrideRef.current = true;
     const loc = await findLocationByZip(zip);
     if (loc) {
       setActiveLocation(loc);
@@ -106,6 +117,7 @@ export function LocationProvider({
   }, [setActiveLocation]);
 
   const detectUserLocation = useCallback(async (): Promise<LocationHub | null> => {
+    userManualOverrideRef.current = true;
     setIsDetectingLocation(true);
     try {
       const detected = await detectUserLocationFromBrowser();
